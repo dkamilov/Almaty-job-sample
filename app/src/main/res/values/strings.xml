@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Unmpld</string>
+    <string name="not_signed">Войти в аккаунт</string>
+    <string name="logout">Выйти</string>
+    <string name="clear_suggestions">Очистить историю поиска</string>
+    <string name="jobAlmaty">Работа в Алматы</string>
+    <string name="myJob">Моя работа</string>
+    <string name="search_hint">Название вакансии</string>
+    <string name="search_title">Поиск</string>
+    <string name="network_error">Нет соединения!</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="login_button">Войти</string>
+    <string name="register_button">Регистрация</string>
+
+    <string name="salary">%1$s - %2$s %3$s</string>
+    <string name="salary_from">от %1$s %2$s</string>
+    <string name="salary_to">до %1$s %2$s</string>
+</resources>

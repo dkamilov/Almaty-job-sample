@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Unmpld" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="autoCompleteTextViewStyle">@style/myAutoCompleteTextViewStyle</item>
+        <item name="textAppearanceSearchResultTitle">@style/mySearchResult</item>
+        <item name="actionOverflowMenuStyle">@style/actionMenuStyle</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="Widget.Unmpld.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/TextAppearance.Unmpld.TextInputLayout.HintText</item>
+        <item name="hintTextColor">@color/textColorPrimary</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="boxStrokeColor">@color/textInputOutlineColor</item>
+    </style>
+
+    <style name="Widget.Unmpld.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="background">@drawable/background_button</item>
+    </style>
+
+    <style name="Widget.Unmpld.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.Unmpld.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="actionMenuStyle" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+
+
+
+
+    <style name="myAutoCompleteTextViewStyle" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:popupBackground">@color/windowBackground</item>
+    </style>
+    
+    <style name="mySearchResult" parent="TextAppearance.AppCompat.SearchResult.Title">
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Unmpld.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+</resources>

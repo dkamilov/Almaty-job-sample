@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "69090897230",
+    "firebase_url": "https://jobfinder-257517.firebaseio.com",
+    "project_id": "jobfinder-257517",
+    "storage_bucket": "jobfinder-257517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69090897230:android:3fb3dfdcc9f5cb0bb5c21f",
+        "android_client_info": {
+          "package_name": "com.android.damir.jobfind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69090897230-9v46068sq45i8teptl3qlohrif5pstaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.damir.jobfind",
+            "certificate_hash": "1686d122bb1e944dc700a068965cd92d22629bd2"
+          }
+        },
+        {
+          "client_id": "69090897230-bikjmfeada86t9o003mtmnnn53mdjgqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiIKOfo8t7PoEJ-5GkasFT7SteufuzJgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69090897230-bikjmfeada86t9o003mtmnnn53mdjgqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3a3842</color>
+    <color name="colorPrimaryDark">#2c2a33</color>
+    <color name="colorAccent">#FF6859</color>
+    <color name="windowBackground">#3a3842</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="textInputOutlineColor">#01c784</color>
+
+    <color name="unmpld_primary_green">#1EB980</color>
+    <color name="unmpld_dark_green">#045D56</color>
+    <color name="unmpld_orange">#FF6859</color>
+    <color name="unmpld_yellow">#FFCF44</color>
+    <color name="unmpld_purple">#B15DFF</color>
+    <color name="unmpld_blue">#72DEFF</color>
+</resources>
