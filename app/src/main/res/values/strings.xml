@@ -1,7 +1,5 @@
 <resources>
-    <string name="app_name">Unmpld</string>
-    <string name="not_signed">Войти в аккаунт</string>
-    <string name="logout">Выйти</string>
+    <string name="app_name">Работа в Алматы</string>
     <string name="clear_suggestions">Очистить историю поиска</string>
     <string name="jobAlmaty">Работа в Алматы</string>
     <string name="myJob">Моя работа</string>

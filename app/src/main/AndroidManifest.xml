@@ -14,25 +14,19 @@
         android:supportsRtl="true"
         android:theme="@style/Unmpld"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.LoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".ui.AlmatyJobActivity"
+        <activity
+            android:name=".ui.AlmatyJobActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <meta-data android:name="android.app.searchable"
+            <meta-data
+                android:name="android.app.searchable"
                 android:resource="@xml/searchable"/>
         </activity>
-        <activity android:name=".ui.MyJobActivity"/>
-        <activity android:name=".ui.MainActivity" />
-        
         <provider
             android:authorities="com.android.damir.jobfind.MySuggestionsProvider"
             android:name=".MySuggestionsProvider"/>

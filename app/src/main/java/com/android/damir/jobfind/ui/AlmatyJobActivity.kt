@@ -3,29 +3,22 @@ package com.android.damir.jobfind.ui
 import android.app.SearchManager
 import android.content.Context
 import android.content.Intent
-import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.SearchRecentSuggestions
-import android.util.Log
-import android.view.Gravity
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.view.animation.DecelerateInterpolator
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.appcompat.widget.Toolbar
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.transition.Slide
-import androidx.transition.Transition
 import com.android.damir.jobfind.R
-import com.android.damir.jobfind.MySuggestionsProvider
 import com.android.damir.jobfind.paging.AlmatyJobAdapter
 import com.android.damir.jobfind.viewmodels.AlmatyJobViewModel
 import kotlinx.android.synthetic.main.activity_almaty_job.*
-import kotlinx.android.synthetic.main.activity_main.*
+
+
 
 class AlmatyJobActivity : AppCompatActivity(){
 
@@ -61,11 +54,6 @@ class AlmatyJobActivity : AppCompatActivity(){
             progress_bar.visibility = View.GONE
         })
         super.onResume()
-    }
-
-    override fun finish() {
-        super.finish()
-        this.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
